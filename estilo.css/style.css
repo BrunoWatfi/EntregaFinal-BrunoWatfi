@@ -1,0 +1,323 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Alkalami", serif;
+}
+
+nav {
+  background-color: #fff;
+  height: 80px;
+  width: 100%;
+  text-decoration: none;
+  list-style: none;
+}
+nav ul {
+  float: right;
+  margin-right: 50px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: black;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav ul i {
+  margin-left: 70px;
+  cursor: pointer;
+}
+nav ul b {
+  margin-left: 5px;
+}
+
+.enlace {
+  position: absolute;
+  padding: 20px 50px;
+}
+
+.logo2 {
+  height: 60px;
+}
+
+li .active {
+  background: rgb(197, 197, 196);
+  transition: 0.5s;
+}
+li a:hover {
+  background: rgb(197, 197, 196);
+  transition: 0.5s;
+}
+
+.checkbtn {
+  font-size: 35px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+b {
+  cursor: pointer;
+}
+
+.section {
+  padding: 30px;
+  text-align: center;
+}
+
+h3 {
+  margin: 50px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin: 15px 0 15px 0;
+}
+
+.quienes {
+  margin: 50px 50px 50px 50px;
+}
+
+.maind {
+  margin: 0 0 0 30px;
+}
+
+.contactanos {
+  text-align: center;
+}
+
+.contacto {
+  width: 450px;
+  margin: auto;
+  background-color: rgb(237, 239, 245);
+}
+
+.cont {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+body section h2 b {
+  border-radius: 2px;
+}
+
+.imgh {
+  border: solid;
+  border-color: rgb(236, 228, 228);
+}
+.imgh img {
+  max-width: 100%;
+  height: auto;
+  transition: all 300ms;
+}
+.imgh img:hover {
+  transform: scale(1.3);
+}
+
+.divr {
+  margin: 0;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#mujer {
+  margin: 0;
+  display: inline-block;
+}
+
+#niño {
+  margin: 0;
+  display: inline-block;
+}
+
+section div p {
+  margin: 5px 5px 5px 5px;
+}
+
+.sale {
+  color: red;
+  text-decoration: line-through;
+}
+
+.car {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px;
+}
+
+.letras {
+  color: black;
+}
+
+.cards1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+form {
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #292c2f;
+  color: #fff;
+  text-align: center;
+}
+footer p {
+  text-align: end;
+  margin-bottom: 0%;
+}
+
+.fa-brands {
+  color: #fff;
+  margin: 25px 25px 25px 25px;
+}
+
+@media (max-width: 600px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: calc(100% - 80px);
+    background-color: #9a9a9c;
+    top: 85px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  li a:hover {
+    background: none;
+    color: #fff;
+  }
+  li a.active {
+    background: none;
+    color: #fff;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .card-body {
+    text-align: center;
+  }
+  .card {
+    top: 20%;
+  }
+  main iframe {
+    width: 100%;
+  }
+  .section {
+    padding: 0px;
+  }
+  .parrafo {
+    margin: 10px;
+  }
+}
+@media (max-width: 900px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: calc(100% - 80px);
+    background-color: #9a9a9c;
+    top: 85px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  li a:hover {
+    background: none;
+    color: #fff;
+  }
+  li a.active {
+    background: none;
+    color: #fff;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  .card-body {
+    text-align: center;
+  }
+  .card {
+    top: 20%;
+  }
+  .cards1 {
+    justify-content: center;
+  }
+  main iframe {
+    width: 100%;
+  }
+  .section {
+    padding: 0px;
+  }
+  .parrafo {
+    margin: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

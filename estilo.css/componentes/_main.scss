@@ -1,0 +1,111 @@
+b {
+	cursor: pointer;
+}
+.section {
+	padding: 30px;
+	text-align: center;
+}
+h3 {
+	margin: 50px;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	margin: 15px 0 15px 0;
+}
+.quienes {
+	margin: 50px 50px 50px 50px;
+}
+
+.maind {
+	margin: 0 0 0 30px;
+}
+.contactanos {
+	text-align: center;
+}
+.contacto {
+	width: 450px;
+	margin: auto;
+	background-color: rgb(237, 239, 245);
+}
+
+.cont {
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+input {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-size: 15px;
+}
+textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-size: 15px;
+}
+body {
+	section {
+		h2 {
+			b {
+				border-radius: 2px;
+			}
+		}
+	}
+}
+.imgh {
+	border: solid;
+	border-color: rgb(236, 228, 228);
+	img {
+		max-width: 100%;
+		height: auto;
+		transition: all 300ms;
+		&:hover {
+			transform: scale(1.3);
+		}
+	}
+}
+
+.divr {
+	margin: 0;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#mujer {
+	margin: 0;
+	display: inline-block;
+}
+#niño {
+	margin: 0;
+	display: inline-block;
+}
+section {
+	div {
+		p {
+			margin: 5px 5px 5px 5px;
+		}
+	}
+}
+.sale {
+	color: red;
+	text-decoration: line-through;
+}
+.car {
+	width: 100%;
+}
+h1 {
+	text-align: center;
+	margin: 50px;
+}
+.letras {
+	color: $maincolor;
+}
+.cards1 {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5rem;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
